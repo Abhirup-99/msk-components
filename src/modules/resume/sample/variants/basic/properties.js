@@ -1,17 +1,15 @@
-/* 🙋‍♂️Explaination
+/* 🙋‍♂️ Explaination
 *************************************************************************
 This file declares all the properties that will be passed to the variant
 when it is rendered in the editor.
 
-'msk-property-types' | https://github.com/ManojSatishkumar/msk-property-types/blob/master/index.js
-Declares different types of proprties supported.
+'msk-property-types' | Declares different types of proprties supported.
 
-'msk-themes' | https://github.com/ManojSatishkumar/msk-themes/blob/master/index.js
-Declares different themes supported.
+'msk-themes' | Declares different themes supported.
 *************************************************************************
 */
 
-/* ✅RULES & BEST PRACTICES
+/* ✅ RULES & BEST PRACTICES
 *************************************************************************
 Please follow these rules if you want your component to go LIVE.
 
@@ -23,10 +21,15 @@ Please follow these rules if you want your component to go LIVE.
 6. Use ONLY the property types supported in 'msk-property-types'
 7. Make sure property keys are unique.
 8. All fields are mandatory.
+9. Each property {} can contain ONLY the below fields,
+ - type
+ - value
+ - name
+ - required
 *************************************************************************
 */
 
-/* 👨‍💻Your code starts below.
+/* 👨‍💻 Your code starts below.
 *************************************************************************
 Happy coding.
 *************************************************************************/

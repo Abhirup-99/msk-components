@@ -101,8 +101,18 @@ function ModulesList({
           })}
         </div>
       </List>
+      <Flex />
+
+      <Toolbar style={{ backgroundColor: "rgb(92.1%, 92.1%, 92.1%)" }} variant="dense" >
+        <Flex />
+        <Typography style={{ color: 'black' }} variant="caption" >
+          MSK UI
+        </Typography>
+
+        <Flex />
+      </Toolbar>
     </Drawer>
-  </div>
+  </div >
 }
 
 export default ModulesList;
